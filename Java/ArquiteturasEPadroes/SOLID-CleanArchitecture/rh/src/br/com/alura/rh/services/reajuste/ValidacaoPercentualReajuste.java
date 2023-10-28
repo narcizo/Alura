@@ -1,4 +1,4 @@
-package br.com.alura.rh.services;
+package br.com.alura.rh.services.reajuste;
 
 import br.com.alura.rh.ValidacaoException;
 import br.com.alura.rh.model.Funcionario;

@@ -94,8 +94,8 @@ Classes acopladas causam fragilidade no código da aplicação, tornando difíci
 
 </details>
 
-<details>
-<summary> SOLID</summary>
+<!-- <details> -->
+<!-- <summary> SOLID</summary> -->
 
 ## Single Responsability Principle
 ##### Aumenta a coesão
@@ -234,8 +234,16 @@ Com isso ganhamos um grande potencial de **extensibilidade**, tudo isso com a aj
 
 ## Liskov Substitution Principle
 
+Cuidado pra não ferir esse princípio quando utilizar herança. Cuidado ao usar as abstrações erradas.
+
+> Se parece um pato, gasna como um pato, mas precisa de baterias, você provavelmente está usando a abstração errada.
+
+Em casos onde a herança não atende perfeitamente a todos os herdeiros, use uma composição para extrair o mínimo denomidador comum de todos os herdados e ai sim utilize a herança. Prefira composição à herança, esse é o jeito certo de herdar.
+
+> Se `q(x)` é uma propriedade demonstrável dos objetos `x` de tipo `T`, então `q(y)` deve ser verdadeiro para objetos `y` de tipo `S`, onde `S` é um subtipo de `T`. **(Barbara Liskov)**
+
 ---
 
 ## Dependency Inversion Principle
 
-</details>
+<!-- </details> -->
